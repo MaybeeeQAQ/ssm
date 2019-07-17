@@ -1,22 +1,40 @@
 package com.hand.ssm.pojo;
 
 public class Role {
-    private int rid;
-    private String rname;
+    private int id;
+    private String name;
+    private int uid;
 
-    public int getRid() {
-        return rid;
+    public int getId() {
+        return id;
     }
 
-    public void setRid(int rid) {
-        this.rid = rid;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getRname() {
-        return rname;
+    public String getName() {
+        return name;
     }
 
-    public void setRname(String rname) {
-        this.rname = rname;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getUid() {
+        return uid;
+    }
+
+    public void setUid(int uid) {
+        this.uid = uid;
+    }
+
+    @Override
+    public String toString() {
+        return "Role{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", uid=" + uid +
+                '}';
     }
 }
