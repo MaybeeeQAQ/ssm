@@ -1,0 +1,10 @@
+com\hand\ssm\interception\MyInterception.class
+com\hand\ssm\pojo\Student.class
+com\hand\ssm\pojo\Teacher.class
+com\hand\ssm\controller\StudentController.class
+com\hand\ssm\mapper\UserMapper.class
+com\hand\ssm\pojo\User.class
+com\hand\ssm\mapper\StudentMapper.class
+com\hand\ssm\exception\ExceptionCatch.class
+com\hand\ssm\service\StudentService.class
+com\hand\ssm\pojo\Role.class
